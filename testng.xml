@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<listeners>
+<listener class-name="seleniumtraining.Listeners"/>
+</listeners>
+
+  <test name="login validation">
+    <classes>
+       <class name="seleniumtraining.HomePage"/>
+    </classes>
+  </test>
+      
+  <test name="navigation bar validation">
+    <classes>
+      <class name="seleniumtraining.validatenavigationbar"/>
+    </classes>
+  </test>
+      
+  <test name="tittle validation">
+    <classes>
+      <class name="seleniumtraining.tittlevalidation"/>
+    </classes>
+    </test>
+    
+      <test name="course navigation">
+    <classes>
+      <class name="seleniumtraining.coursenavigation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

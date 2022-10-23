@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 132.978 s <<< FAILURE! - in TestSuite
+tittlevalidate(seleniumtraining.tittlevalidation)  Time elapsed: 5.451 s  <<< FAILURE!
+java.lang.AssertionError: expected [FEATURED1 COURSES] but found [FEATURED COURSES]
+	at seleniumtraining.tittlevalidation.tittlevalidate(tittlevalidation.java:43)
+
